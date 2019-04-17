@@ -33,6 +33,7 @@ def get_english_meaning(path, emoticon)
   
   library.each do |k, v|
     binding.pry
+    k
   end
 end
 end
