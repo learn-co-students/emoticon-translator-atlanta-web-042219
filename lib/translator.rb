@@ -21,6 +21,7 @@ def get_japanese_emoticon(path, emoticon)
     v.each do |k1, v1|
       if emoticon == k1
         return v1
+      end
     end
   end
   "Sorry buddy"
