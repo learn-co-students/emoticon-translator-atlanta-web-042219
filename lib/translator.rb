@@ -27,6 +27,12 @@ def get_japanese_emoticon(path, emoticon)
   "Sorry, that emoticon was not found"
 end
 
-def get_english_meaning
+def get_english_meaning(path, emoticon)
+  library = load_library(path)
   # code goes here
+  
+  library.each do |k, v|
+    
+  end
+end
 end
