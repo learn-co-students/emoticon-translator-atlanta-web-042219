@@ -36,4 +36,3 @@ def get_english_meaning(path, emoticon)
     k
   end
 end
-end
