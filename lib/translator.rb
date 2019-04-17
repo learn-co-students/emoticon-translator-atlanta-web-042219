@@ -18,7 +18,9 @@ def get_japanese_emoticon(path, emoticon)
   # code goes here
   
   library.each do |k, v|
-  #binding.pry
+    v.each do |k1, v1|
+    binding.pry
+    end
   end
 end
 
