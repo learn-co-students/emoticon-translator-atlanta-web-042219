@@ -19,9 +19,11 @@ def get_japanese_emoticon(path, emoticon)
   
   library.each do |k, v|
     v.each do |k1, v1|
-    binding.pry
+      if emoticon == k1
+        return v1
     end
   end
+  "Sorry buddy"
 end
 
 def get_english_meaning
