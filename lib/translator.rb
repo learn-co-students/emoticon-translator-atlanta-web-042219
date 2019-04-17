@@ -32,6 +32,9 @@ def get_english_meaning(path, emoticon)
   # code goes here
 
   library["get_meaning"].each do |k, v|
-    binding.pry
+    if emoticon == k
+      return v
+    end
   end
+  "Sorry"
 end
